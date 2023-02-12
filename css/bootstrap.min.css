@@ -3477,7 +3477,8 @@ textarea.form-control-lg {
     --bs-dropdown-divider-margin-y: 0.5rem;
     --bs-dropdown-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
     --bs-dropdown-link-color: #e63886;
-    --bs-dropdown-link-hover-color: #f088b6;
+    --bs-dropdown-link-hover-color: #2f1c78;
+    /* --bs-dropdown-link-hover-color: #f088b6; */
     --bs-dropdown-link-hover-bg: #fdebf3;
     --bs-dropdown-link-active-color: #fff;
     --bs-dropdown-link-active-bg: #0d6efd;
