@@ -29,8 +29,10 @@
   <nav class="navbar navbar-expand-sm bg-light navbar-light fixed-top">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
-        <img src="./images/Logo/MPC_logo.jpg" alt="Logo" style="height: 25%;width:25%;margin-right: 0;"
-          class="rounded" />
+        <!-- <img src="./images/Logo/MPC_logo.jpg" alt="Logo" style="height: 25%;width:25%;margin-right: 0;"
+          class="rounded" /> -->
+        <img src="./images/Logo/MPC_logo.jpg" alt="Logo" width="50" height="40" class="d-inline-block align-text-top">
+        Maliba Pharmacy College
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
@@ -79,12 +81,12 @@
   </nav>
   <div class="container-fluid mt-4 mb-4 pt-5" style="margin-left: 0;margin-right: 0;padding-left: 0;padding-right: 0;">
     <!-- Carousel -->
-    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+    <div id="imageslider" class="carousel slide" data-bs-ride="carousel">
       <!-- Indicators/dots -->
       <div class="carousel-indicators">
-        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        <button type="button" data-bs-target="#imageslider" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#imageslider" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#imageslider" data-bs-slide-to="2"></button>
       </div>
 
       <!-- The slideshow/carousel -->
@@ -101,13 +103,18 @@
       </div>
 
       <!-- Left and right controls/icons -->
-      <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <button class="carousel-control-prev" type="button" data-bs-target="#imageslider" data-bs-slide="prev">
         <span class="carousel-control-prev-icon"></span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <button class="carousel-control-next" type="button" data-bs-target="#imageslider" data-bs-slide="next">
         <span class="carousel-control-next-icon"></span>
       </button>
     </div>
+    <script>
+      $('#imageslider').carousel({
+        interval: 5000
+      })
+    </script>
     <!-- Programmes -->
     <div class="container-fluid mt-2" style="text-align: center;">
       <h5>Programmes</h5>
@@ -253,11 +260,7 @@
                   <h6 class="card-title">John Doe1-1</h6>
                   <p class="card-text">One of my greatest concern was towards my career prospects, and the job I would
                     pursue after my studies. However, all my concerns were resolved when I received the necessary
-                    professional training and grooming from the PU Training and placement cell. Parul University's focus
-                    on
-                    placements is indeed unique. I truly appreciate the opportunities which they facilitated, thus
-                    leading
-                    me to my dream job.</p>
+                    professional training and grooming from the PU Training and placement cell.</p>
                 </div>
               </div>
             </div>
@@ -269,11 +272,7 @@
                   <h6 class="card-title">Jane Doe1-2</h6>
                   <p class="card-text">One of my greatest concern was towards my career prospects, and the job I would
                     pursue after my studies. However, all my concerns were resolved when I received the necessary
-                    professional training and grooming from the PU Training and placement cell. Parul University's focus
-                    on
-                    placements is indeed unique. I truly appreciate the opportunities which they facilitated, thus
-                    leading
-                    me to my dream job.</p>
+                    professional training and grooming from the PU Training and placement cell.</p>
                 </div>
               </div>
             </div>
@@ -285,11 +284,7 @@
                   <h6 class="card-title">Jim Smith1-3</h6>
                   <p class="card-text">One of my greatest concern was towards my career prospects, and the job I would
                     pursue after my studies. However, all my concerns were resolved when I received the necessary
-                    professional training and grooming from the PU Training and placement cell. Parul University's focus
-                    on
-                    placements is indeed unique. I truly appreciate the opportunities which they facilitated, thus
-                    leading
-                    me to my dream job.</p>
+                    professional training and grooming from the PU Training and placement cell.</p>
                 </div>
               </div>
             </div>
@@ -301,11 +296,7 @@
                   <h6 class="card-title">Jim Smith1-4</h6>
                   <p class="card-text">One of my greatest concern was towards my career prospects, and the job I would
                     pursue after my studies. However, all my concerns were resolved when I received the necessary
-                    professional training and grooming from the PU Training and placement cell. Parul University's focus
-                    on
-                    placements is indeed unique. I truly appreciate the opportunities which they facilitated, thus
-                    leading
-                    me to my dream job.</p>
+                    professional training and grooming from the PU Training and placement cell.</p>
                 </div>
               </div>
             </div>
@@ -314,7 +305,7 @@
         <div class="carousel-item">
           <div class="card text-center">
             <div class="row">
-              <div class="col-md-4 mb-5">
+              <div class="col-md-3 mb-5">
                 <div class="card text-center">
                   <img src="./images/Logo/MPC_logo.jpg" class="rounded-circle mx-auto mt-3" alt="profile image"
                     height="100" width="100">
@@ -322,15 +313,11 @@
                     <h6 class="card-title">John Doe2-1</h6>
                     <p class="card-text">One of my greatest concern was towards my career prospects, and the job I would
                       pursue after my studies. However, all my concerns were resolved when I received the necessary
-                      professional training and grooming from the PU Training and placement cell. Parul University's
-                      focus on
-                      placements is indeed unique. I truly appreciate the opportunities which they facilitated, thus
-                      leading
-                      me to my dream job.</p>
+                      professional training and grooming from the PU Training and placement cell.</p>
                   </div>
                 </div>
               </div>
-              <div class="col-md-4 mb-5">
+              <div class="col-md-3 mb-5">
                 <div class="card text-center">
                   <img src="./images/Logo/MPC_logo.jpg" class="rounded-circle mx-auto mt-3" alt="profile image"
                     height="100" width="100">
@@ -338,15 +325,11 @@
                     <h6 class="card-title">Jane Doe2-2</h6>
                     <p class="card-text">One of my greatest concern was towards my career prospects, and the job I would
                       pursue after my studies. However, all my concerns were resolved when I received the necessary
-                      professional training and grooming from the PU Training and placement cell. Parul University's
-                      focus on
-                      placements is indeed unique. I truly appreciate the opportunities which they facilitated, thus
-                      leading
-                      me to my dream job.</p>
+                      professional training and grooming from the PU Training and placement cell.</p>
                   </div>
                 </div>
               </div>
-              <div class="col-md-4 mb-5">
+              <div class="col-md-3 mb-5">
                 <div class="card text-center">
                   <img src="./images/Logo/MPC_logo.jpg" class="rounded-circle mx-auto mt-3" alt="profile image"
                     height="100" width="100">
@@ -354,11 +337,19 @@
                     <h6 class="card-title">Jim Smith2-3</h6>
                     <p class="card-text">One of my greatest concern was towards my career prospects, and the job I would
                       pursue after my studies. However, all my concerns were resolved when I received the necessary
-                      professional training and grooming from the PU Training and placement cell. Parul University's
-                      focus on
-                      placements is indeed unique. I truly appreciate the opportunities which they facilitated, thus
-                      leading
-                      me to my dream job.</p>
+                      professional training and grooming from the PU Training and placement cell.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 mb-5">
+                <div class="card text-center">
+                  <img src="./images/Logo/MPC_logo.jpg" class="rounded-circle mx-auto mt-3" alt="profile image"
+                    height="100" width="100">
+                  <div class="card-body">
+                    <h6 class="card-title">Jim Smith2-4</h6>
+                    <p class="card-text">One of my greatest concern was towards my career prospects, and the job I would
+                      pursue after my studies. However, all my concerns were resolved when I received the necessary
+                      professional training and grooming from the PU Training and placement cell.</p>
                   </div>
                 </div>
               </div>
@@ -368,7 +359,7 @@
         <div class="carousel-item">
           <div class="card text-center">
             <div class="row">
-              <div class="col-md-4 mb-5">
+              <div class="col-md-3 mb-5">
                 <div class="card text-center">
                   <img src="./images/Logo/MPC_logo.jpg" class="rounded-circle mx-auto mt-3" alt="profile image"
                     height="100" width="100">
@@ -376,15 +367,11 @@
                     <h6 class="card-title">John Doe3-1</h6>
                     <p class="card-text">One of my greatest concern was towards my career prospects, and the job I would
                       pursue after my studies. However, all my concerns were resolved when I received the necessary
-                      professional training and grooming from the PU Training and placement cell. Parul University's
-                      focus on
-                      placements is indeed unique. I truly appreciate the opportunities which they facilitated, thus
-                      leading
-                      me to my dream job.</p>
+                      professional training and grooming from the PU Training and placement cell.</p>
                   </div>
                 </div>
               </div>
-              <div class="col-md-4 mb-5">
+              <div class="col-md-3 mb-5">
                 <div class="card text-center">
                   <img src="./images/Logo/MPC_logo.jpg" class="rounded-circle mx-auto mt-3" alt="profile image"
                     height="100" width="100">
@@ -392,15 +379,11 @@
                     <h6 class="card-title">Jane Doe3-2</h6>
                     <p class="card-text">One of my greatest concern was towards my career prospects, and the job I would
                       pursue after my studies. However, all my concerns were resolved when I received the necessary
-                      professional training and grooming from the PU Training and placement cell. Parul University's
-                      focus on
-                      placements is indeed unique. I truly appreciate the opportunities which they facilitated, thus
-                      leading
-                      me to my dream job.</p>
+                      professional training and grooming from the PU Training and placement cell.</p>
                   </div>
                 </div>
               </div>
-              <div class="col-md-4 mb-5">
+              <div class="col-md-3 mb-5">
                 <div class="card text-center">
                   <img src="./images/Logo/MPC_logo.jpg" class="rounded-circle mx-auto mt-3" alt="profile image"
                     height="100" width="100">
@@ -408,11 +391,19 @@
                     <h6 class="card-title">Jim Smith3-3</h6>
                     <p class="card-text">One of my greatest concern was towards my career prospects, and the job I would
                       pursue after my studies. However, all my concerns were resolved when I received the necessary
-                      professional training and grooming from the PU Training and placement cell. Parul University's
-                      focus on
-                      placements is indeed unique. I truly appreciate the opportunities which they facilitated, thus
-                      leading
-                      me to my dream job.</p>
+                      professional training and grooming from the PU Training and placement cell.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 mb-5">
+                <div class="card text-center">
+                  <img src="./images/Logo/MPC_logo.jpg" class="rounded-circle mx-auto mt-3" alt="profile image"
+                    height="100" width="100">
+                  <div class="card-body">
+                    <h6 class="card-title">Jim Smith3-4</h6>
+                    <p class="card-text">One of my greatest concern was towards my career prospects, and the job I would
+                      pursue after my studies. However, all my concerns were resolved when I received the necessary
+                      professional training and grooming from the PU Training and placement cell.</p>
                   </div>
                 </div>
               </div>
@@ -429,7 +420,11 @@
         <span class="carousel-control-next-icon" style="background-color: black"></span>
       </button>
     </div>
-
+    <script>
+      $('#studentspeack').carousel({
+        interval: 5000
+      })
+    </script>
     <!-- footer start -->
     <!DOCTYPE html>
     <!-- Created By CodingLab - www.codinglabweb.com -->
