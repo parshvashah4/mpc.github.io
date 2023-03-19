@@ -81,7 +81,7 @@
   </nav>
   <div class="container-fluid mt-4 mb-4 pt-5" style="margin-left: 0;margin-right: 0;padding-left: 0;padding-right: 0;">
     <!-- Carousel -->
-    <div id="imageslider" class="carousel slide" data-bs-ride="carousel">
+    <div id="imageslider" class="carousel slide" data-bs-ride="carousel" style="height: 450px;">
       <!-- Indicators/dots -->
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#imageslider" data-bs-slide-to="0" class="active"></button>
@@ -90,14 +90,14 @@
       </div>
 
       <!-- The slideshow/carousel -->
-      <div class="carousel-inner">
-        <div class="carousel-item active">
+      <div class="carousel-inner" style="height: 450px;">
+        <div class="carousel-item active" style="height: 450px;">
           <img src="./images/SlideShowImage/1.jpg" alt="" class="d-block carousel-item-img">
         </div>
-        <div class="carousel-item">
+        <div class="carousel-item" style="height: 450px;">
           <img src="./images/SlideShowImage/2.jpg" alt="" class="d-block carousel-item-img">
         </div>
-        <div class="carousel-item">
+        <div class="carousel-item" style="height: 450px;">
           <img src="./images/SlideShowImage/3.jpg" alt="" class="d-block carousel-item-img">
         </div>
       </div>
@@ -117,7 +117,7 @@
     </script>
     <!-- Programmes -->
     <div class="container-fluid mt-2" style="text-align: center;">
-      <h5>Programmes</h5>
+      <h2 class="text-center mt-2 mb-2">Programmes</h2>
       <div class="row">
         <div class="col-md-3 p-1">
           <div class="card" style="background-color: #5d4f96;color: #ffffff;height: 80px;">
@@ -188,7 +188,7 @@
       </div>
     </div>
     <!-- News and Announcement -->
-    <div class="container-fluid mt-2" style="font-size: smaller;">
+    <div class="container-fluid mt-2 mb-2" style="font-size: smaller;">
       <div class="row">
         <div class="col-md-6">
           <h5>News</h5>
@@ -235,18 +235,8 @@
 
     <!-- Our Student Speak -->
     <!-- Carousel -->
-    <h5 class="text-center mb-4">Our Student Experience</h5>
+    <h2 class="text-center mt-2 mb-2">Our Student Experience</h2>
     <div id="studentspeack" class="carousel slide" data-bs-ride="carousel" style="margin-left: 25px;margin-right:25px;">
-      <!-- Indicators/dots -->
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#studentspeack" data-bs-slide-to="0" class="active"
-          style="background-color: black"></button>
-        <button type="button" data-bs-target="#studentspeack" data-bs-slide-to="1"
-          style="background-color: black"></button>
-        <button type="button" data-bs-target="#studentspeack" data-bs-slide-to="2"
-          style="background-color: black"></button>
-      </div>
-
       <!-- The slideshow/carousel -->
       <div class="carousel-inner">
         <div class="carousel-item active">
@@ -422,6 +412,81 @@
     </div>
     <script>
       $('#studentspeack').carousel({
+        interval: 5000
+      })
+    </script>
+    <!--Recruiters-->
+
+    <h2 class="text-center mt-2 mb-2">Our Top Recruiters</h2>
+    <div id="recruiters" class="carousel slide mt-4 pt-4 mb-4 pb-4" data-bs-ride="carousel"
+      style="margin-left: 25px;margin-right:25px;">
+      <!-- Indicators/dots -->
+      <!-- <div class="carousel-indicators">
+        <button type="button" data-bs-target="#recruiters" data-bs-slide-to="0" class="active"
+          style="background-color: black"></button>
+        <button type="button" data-bs-target="#recruiters" data-bs-slide-to="1"
+          style="background-color: black"></button>
+        <button type="button" data-bs-target="#recruiters" data-bs-slide-to="2"
+          style="background-color: black"></button>
+      </div> -->
+      <!-- The slideshow/carousel -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <!-- <img src="./images/SlideShowImage/1.jpg" alt="" class="d-block carousel-item-img"> -->
+          <div class="row">
+            <div class="col-md-4">
+              <img src="./images/company/1.jpg" class="img-thumbnail" alt="company" />
+            </div>
+            <div class="col-md-4">
+              <img src="./images/company/2.jpg" class="img-thumbnail" alt="company" />
+            </div>
+            <div class="col-md-4">
+              <img src="./images/company/3.jpg" class="img-thumbnail" alt="company" />
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card text-center">
+            <div class="row">
+              <div class="col-md-4">
+                <img src="./images/company/4.jpg" class="img-thumbnail" alt="company" />
+              </div>
+              <div class="col-md-4">
+                <img src="./images/company/5.jpg" class="img-thumbnail" alt="company" />
+              </div>
+              <div class="col-md-4">
+                <img src="./images/company/6.jpg" class="img-thumbnail" alt="company" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="card text-center">
+            <div class="row">
+              <div class="col-md-4">
+                <img src="./images/company/7.jpg" class="img-thumbnail" alt="company" />
+              </div>
+              <div class="col-md-4">
+                <img src="./images/company/10.jpg" class="img-thumbnail" alt="company" />
+              </div>
+              <div class="col-md-4">
+                <img src="./images/company/11.jpg" class="img-thumbnail" alt="company" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Left and right controls/icons -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#recruiters" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" style="background-color: black"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#recruiters" data-bs-slide="next">
+        <span class="carousel-control-next-icon" style="background-color: black"></span>
+      </button>
+    </div>
+    <script>
+      $('#recruiters').carousel({
         interval: 5000
       })
     </script>
