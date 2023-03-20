@@ -12217,3 +12217,11 @@ textarea.form-control-lg {
 }
 
 /*# sourceMappingURL=bootstrap.min.css.map */
+.service {
+    font-size: larger;
+}
+
+p.service_desc {
+    color: #999;
+    font-size: smaller;
+}
